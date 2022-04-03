@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+body{
+    text-align: center;
+    background-color: bisque;
+}
+
+p {
+    text-transform: capitalize;
+    font-size: 3rem;
+    text-align: center;
+    color: forestgreen;
+    font-family: 'Rubik Glitch', cursive;
+    margin: 1rem;
+}
+
+.divStyles {
+    box-sizing: border-box;
+}
+
+.squaresContainer {
+    display: grid;
+    grid-template-columns: repeat(16, minmax(auto, auto));
+    grid-template-rows: repeat(16, minmax(auto, auto));
+    width: 60%;
+    height:80vh;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+#btnPrompt{
+    font-size: 1rem;
+    border-radius: .3rem;
+    background-color: rgb(34, 139, 34);
+    margin: 1rem;
+}
+
+footer{
+    font-family: 'Rubik Glitch', cursive;
+}
+
